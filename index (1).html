@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>মোঃ নাজমুল হক নাদিম</title>
+<meta name="description" content="মোঃ নাজমুল হক নাদিমের ব্যক্তিগত ওয়েবসাইট">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@700;800&family=Hind+Siliguri:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ffffff;--ink:#111418;--mute:#5b626d;--line:#e6e8ec;--green:#006a4e;--red:#e5322d;--tint:#f2f7f5}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.7 "Hind Siliguri",system-ui,sans-serif;
+  padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+.wrap{max-width:760px;margin:0 auto;padding:0 22px}
+h1,h2{font-family:"Noto Serif Bengali","Hind Siliguri",serif}
+
+.nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.logo{font-weight:600;text-decoration:none;display:flex;align-items:center;gap:8px}
+.logo::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--red)}
+.pill{background:var(--green);color:#fff;text-decoration:none;font-weight:500;font-size:.95rem;padding:7px 18px;border-radius:999px}
+.pill:hover{background:#004d38}
+
+.hero{padding:64px 0 72px}
+h1{font-size:clamp(2rem,8.5vw,3.4rem);line-height:1.15;font-weight:800;letter-spacing:-.01em}
+.lead{color:var(--mute);font-size:1.05rem;margin-top:14px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.btn{display:inline-block;text-decoration:none;font-weight:600;font-size:.98rem;padding:11px 24px;border-radius:999px;border:2px solid var(--green)}
+.btn.main{background:var(--green);color:#fff}
+.btn.main:hover{background:#004d38}
+.btn.alt{color:var(--green)}
+.btn.alt:hover{background:var(--tint)}
+
+section{padding:48px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(1.5rem,5vw,1.9rem);font-weight:800;line-height:1.25;margin-bottom:22px}
+.list div{display:flex;flex-direction:column;padding:16px 0;border-bottom:1px solid var(--line)}
+.list div:first-child{padding-top:0}
+.list small{color:var(--green);font-weight:600;font-size:.88rem}
+.list b{font:700 clamp(1.1rem,4vw,1.4rem)/1.4 "Noto Serif Bengali","Hind Siliguri",serif}
+
+.num{display:inline-block;font:800 clamp(1.4rem,6vw,2rem)/1.2 "Noto Serif Bengali",serif;color:var(--green);text-decoration:none}
+.num:hover{text-decoration:underline}
+.sub{color:var(--mute);font-size:.98rem;margin:6px 0 26px}
+form{display:grid;gap:12px;max-width:480px}
+label{font-weight:500;font-size:.95rem}
+input,textarea{width:100%;font:inherit;font-size:1rem;color:var(--ink);background:#fff;border:2px solid var(--line);border-radius:12px;padding:10px 14px}
+input:focus,textarea:focus{border-color:var(--green)}
+textarea{min-height:110px;resize:vertical}
+form button{justify-self:start;background:var(--green);color:#fff;border:0;border-radius:999px;padding:11px 28px;font:600 1rem "Hind Siliguri";cursor:pointer}
+form button:hover{background:#004d38}
+footer{border-top:1px solid var(--line);text-align:center;color:var(--mute);font-size:.85rem;padding:24px 0 34px}
+
+@media (min-width:820px){
+  .hero{padding:100px 0 110px}
+  section{padding:64px 0}
+  .list{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+  .list div:nth-child(2){padding-top:0}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="nav">
+    <a class="logo" href="#top">নাদিম</a>
+    <a class="pill" href="#contact">যোগাযোগ</a>
+  </nav>
+
+  <header class="hero" id="top">
+    <h1>হ্যালো,<br>আমি নাদিম।</h1>
+    <p class="lead">মোঃ নাজমুল হক নাদিম<br>@nadimahmed360</p>
+    <div class="cta">
+      <a class="btn main" href="https://wa.me/8801998716416">WhatsApp-এ কথা বলুন</a>
+      <a class="btn alt" href="#edu">পড়াশোনা</a>
+    </div>
+  </header>
+
+  <section id="edu">
+    <h2>পড়াশোনা</h2>
+    <div class="list">
+      <div><small>কলেজ</small><b>তারাইল মুক্তিযোদ্ধা সরকারি কলেজ</b></div>
+      <div><small>স্কুল</small><b>বানাইল উচ্চ বিদ্যালয়</b></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>কথা বলি?</h2>
+    <a class="num" href="https://wa.me/8801998716416">+880 1998-716416</a>
+    <p class="sub">WhatsApp-এ সরাসরি মেসেজ করুন, অথবা নিচে লিখে পাঠান।</p>
+    <form id="f">
+      <div><label for="n">আপনার নাম</label><input id="n" required autocomplete="name"></div>
+      <div><label for="m">বার্তা</label><textarea id="m" required></textarea></div>
+      <button type="submit">পাঠান</button>
+    </form>
+  </section>
+
+</div>
+<footer>© 2026 মোঃ নাজমুল হক নাদিম। সর্বস্বত্ব সংরক্ষিত।</footer>
+
+<script>
+document.getElementById("f").addEventListener("submit",e=>{e.preventDefault();
+  const s="আমি "+document.getElementById("n").value+". "+document.getElementById("m").value;
+  location.href="https://wa.me/8801998716416?text="+encodeURIComponent(s)});
+</script>
+</body>
+</html>
